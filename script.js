@@ -125,42 +125,4 @@ creatListTodo();
 
 
 
-// const sendButton = document.querySelector('.button_send');
-
-// sendButton.addEventListener('click', () => {
-//   updateFetch(addTodo());
-//   creatListTodo();
-
-// })
-
-// const modalForm = document.querySelector('.modal_form');
-// modalForm.addEventListener('submit', addTodoModalForm);
-
-// async function addTodoModalForm(event){
-//   event.preventDefault();
-//   let payload = {};
-//   for (let i = 0; i < event.target.length; i++) {
-//     let { name, type, checked, value } = event.target[i];
-//     if (type === 'checkbox') {
-//       payload[name] = checked;
-//     }
-//     else if (name) {
-//       payload[name] = value;
-//     }
-//   }
-//   await fetch(`${localUrl}todos/1`, {
-//     method: 'put',
-//     headers: {
-//       'Content-Type': 'application/json'
-//     },
-//     body: JSON.stringify(payload)
-//   })
-// }
-
-
-
-
-
-
-
 
